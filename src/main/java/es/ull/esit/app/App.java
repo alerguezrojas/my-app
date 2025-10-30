@@ -11,12 +11,12 @@ public class App {
             System.out.println(i);
         }
         // codigo que divide por 0
-        try {
+        //try {
             int resultado = 10 / 0;
             System.out.println("El resultado es: " + resultado);
-        } catch (ArithmeticException e) {
-            System.out.println("Error: No se puede dividir por cero.");
-        }
+        //} catch (ArithmeticException e) {
+            //System.out.println("Error: No se puede dividir por cero.");
+        //}
     }
 
 }
